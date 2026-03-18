@@ -1,4 +1,4 @@
-# 🚀 Chill OS Progress
+# 🧊 Icy OS Progress
 
 ## 2026-03-18
 - Installed Hyprland

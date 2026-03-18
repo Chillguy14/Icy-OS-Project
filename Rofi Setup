@@ -1,6 +1,9 @@
 $ sudo pacman -S rofi
 $ mkdir ~/.config/rofi
 
+
+.config/rofi:
+
 * {
     font: "Figtree 13";
     g-spacing: 10px;

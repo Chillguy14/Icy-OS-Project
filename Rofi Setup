@@ -8,17 +8,17 @@ $ mkdir ~/.config/rofi
     font: "Figtree 13";
     g-spacing: 10px;
     g-margin: 0;
-    b-color: #000000FF;
-    fg-color: #FFFFFFFF;
-    fgp-color: #888888FF;
+    b-color: #77AADDFF;         /* blå kantfärg */
+    fg-color: #0F1D3EFF;        /* mörkblå text */
+    fgp-color: #4A6FAFFF;       /* blå placeholder */
     b-radius: 8px;
     g-padding: 8px;
-    hl-color: #FFFFFFFF;
-    hlt-color: #000000FF;
-    alt-color: #111111FF;
-    wbg-color: #000000CC;
+    hl-color: #3399FFFF;        /* ljusare blå highlight */
+    hlt-color: #FFFFFFFF;       /* vit text på highlight */
+    alt-color: #CCE5FFFF;       /* ljusblå alternerande element */
+    wbg-color: #E6F2FFFF;       /* mycket ljusblå bakgrund */
     w-border: 2px solid;
-    w-border-color: #FFFFFFFF;
+    w-border-color: #77AADDFF;   /* blå border */
     w-padding: 12px;
 }
 
@@ -82,26 +82,26 @@ element {
 }
 
 element normal.normal {
-	background-color: transparent;
-	text-color: @fg-color;
+    background-color: transparent;
+    text-color: @fg-color;
 }
 
 element alternate.normal {
-	background-color: @alt-color;
-	text-color: @fg-color;
+    background-color: @alt-color;
+    text-color: @fg-color;
 }
 
 element selected.active {
-	background-color: @hl-color;
-	text-color: @hlt-color;
+    background-color: @hl-color;
+    text-color: @hlt-color;
 }
 
 element selected.normal {
-	background-color: @hl-color;
-	text-color: @hlt-color;
+    background-color: @hl-color;
+    text-color: @hlt-color;
 }
 
 message {
-    background-color: red;
+    background-color: #3399FFFF;  /* ljusblå för meddelanden */
     border: 0px solid;
 }
